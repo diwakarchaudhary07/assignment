@@ -8,7 +8,7 @@
 </head>
 <style>
     body {
-        background-color: #f1f7f7;
+        background-color: #f8f8f8;
     }
 
     body nav div {
@@ -26,32 +26,67 @@
 
     }
 
-    nav div ul {
+    nav div ul b {
         display: flex;
         margin-left: 550px;
         gap: 40px;
         list-style: none;
         color: rgb(77, 72, 72);
+        font-size: 18px;
     }
 
     .green {
-        color: rgb(86, 202, 164);
-        font-size: 20px;
+        color: rgb(122, 198, 162);
+    }
+
+    .logo {
+        margin-left: 45px;
+        margin-top: 120px;
+    }
+
+    .al {
+        height: 500px;
+        width: 600px;
+        margin-top: -60px;
+        margin-left: 230px;
 
     }
 
-    .aala {
+    .h1 {
+        font-size: 75px;
+        color: black;
+        margin-left: 45px;
+        margin-top: -430px;
+        text-wrap-style: auto;
+
+    }
+
+    .p {
+        margin-top: -25px;
+        margin-left: 45px;
+        color: rgb(50, 45, 45);
+        text-wrap-style: none;
+    }
+
+    .btn {
         height: 40px;
-        width: 50px;
+        width: 240px;
+        font-size: 20px;
+        margin-left: 45px;
+        border-radius: 20px;
+        background-color: rgb(5, 150, 95);
+        border-style: none;
+        color: antiquewhite;
     }
 
-    main h1 {
-        margin-left: 40px;
-        margin-top: 150px;
-        width: 800px;
+    .greenbox {
+        margin-top: -380px;
+        margin-left: 850px;
         height: 400px;
-        font-size: 50px;
+        width: 400px;
     }
+
+    .yellowbox {}
 </style>
 
 <body>
@@ -59,40 +94,41 @@
         <div>
 
             <img src="../Project 05/images/logo.png">
-            <ul>
+            <ul><b>
 
 
-                <li class="green">Home</li>
-                <li>About Us</li>
-                <li>Our Services</li>
-                <li>Contact Us</li>
+
+                    <li class="green">Home</li>
+                    <li>About Us</li>
+                    <li>Our Services</li>
+                    <li>Contact Us</li>
+                </b>
             </ul>
 
         </div>
     </nav>
     <main>
-        <a class="aala">
-            <img src="../Project 05/images/stethoscope.png">
-        </a>
-        <a class="greencut">
-            <img src="images/topAngle.png">
-        </a>
+        <div>
+
+            <img src="images/topAngle.png" class="logo">
+        </div>
+
+        <img src="images/stethoscope.png" class="al">
 
 
+        <h1 class="h1">Complete Health <br>Care Solutions for <br>Everyone</b></h1>
 
-        <h1>Complete Health Care Solutions for Everyone</h1>
-
-        <p>We are always available for out patients with emergen problem.you can <br>easily reach us 24/7.We
+        <p class="p">We are always available for out patients with emergen problem.you can <br>easily reach us 24/7.We
             focused
             on highest quality .</p>
 
         <button class="btn">Make Appoiment</button>
 
-
-
-
-
-
+    </main>
+    <main>
+        <img src="../Project 05/images/greenBox.png" class="greenbox">
+        <img src="../Project 05/images/yellowBox.png" class="yellowbox">
+        <img src="../Project 05/images/doctor.png" class="doctor">
     </main>
 
 </body>
