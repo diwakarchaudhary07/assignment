@@ -1,0 +1,71 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: whitesmoke;
+    margin-top: -5px;
+
+
+}
+
+.top-logo {
+    height: 120px;
+    width: 120px;
+}
+
+.paragraph {
+    margin-top: 40px;
+    display: flex;
+    gap: 25px;
+}
+
+.end {
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+    z-index: 4;
+}
+
+.image {
+    height: 20px;
+    width: 40px;
+    display: flex;
+    justify-content: end;
+    margin-left: 1100px;
+    margin-top: -68px;
+    z-index: 2;
+}
+
+.back-card {
+    height: 500px;
+    width: 780px;
+    margin-left: 480px;
+}
+
+.front-card {
+    height: 450px;
+    width: 785px;
+    margin-left: 650px;
+    margin-top: -500px;
+
+}
+
+.main {
+    margin-left: 50px;
+    margin-top: -500px;
+    color: rgb(196, 190, 190);
+
+}
+
+.h {
+    font-size: 80px;
+}
+
+.p1 {
+    margin-top: -20px;
+    font-size: 25px;
+    color: rgb(138, 124, 124);
+
+
+}
