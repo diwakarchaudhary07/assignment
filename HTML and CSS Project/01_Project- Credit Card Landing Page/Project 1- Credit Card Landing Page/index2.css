@@ -1,0 +1,25 @@
+ main {
+     background-color: rgb(80, 78, 78);
+     height: 60px;
+     z-index: 3;
+ }
+
+ div {
+     display: flex;
+     height: 40px;
+     margin-left: 80px;
+     margin-right: 80px;
+     padding-top: 40px;
+     z-index: 4;
+     justify-content: space-between;
+ }
+
+
+ .midle {
+     display: flex;
+     margin-top: 100px;
+     margin-left: 20px;
+     margin-left: 20px;
+     color: whitesmoke;
+     gap: 500px;
+ }
