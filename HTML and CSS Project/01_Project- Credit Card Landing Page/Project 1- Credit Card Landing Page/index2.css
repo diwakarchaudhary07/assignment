@@ -1,25 +1,118 @@
- main {
-     background-color: rgb(80, 78, 78);
-     height: 60px;
-     z-index: 3;
- }
-
- div {
-     display: flex;
-     height: 40px;
-     margin-left: 80px;
-     margin-right: 80px;
-     padding-top: 40px;
-     z-index: 4;
-     justify-content: space-between;
- }
+#navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 2px;
+    border-style: none;
+    background-color: rgb(56, 56, 56);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 60px;
 
 
- .midle {
-     display: flex;
-     margin-top: 100px;
-     margin-left: 20px;
-     margin-left: 20px;
-     color: whitesmoke;
-     gap: 500px;
- }
+}
+
+#heading {
+
+    display: flex;
+    height: 40px;
+    z-index: 4;
+    justify-content: space-between;
+    padding: 30px;
+    font: bold;
+}
+
+
+.midle {
+    display: flex;
+    margin-left: 20px;
+    margin-left: 30px;
+    color: whitesmoke;
+    gap: 500px;
+
+
+}
+
+#p1 {
+    padding-top: 60px;
+    padding-right: 70px;
+}
+
+#main_cloud {
+    gap: 30px;
+    margin-top: 120px;
+    display: flex;
+    text-align: center;
+    margin-left: 50px;
+}
+
+#cloud_a {
+    height: 140px;
+    width: 150px;
+    background-color: rgb(46, 41, 41);
+    color: antiquewhite;
+    flex-direction: column;
+    padding: 5px;
+    border: 1px solid white;
+}
+
+#cloud {
+    height: 140px;
+    width: 150px;
+    background-color: rgb(66, 63, 63);
+    color: antiquewhite;
+    padding: 5px;
+    border: 2px solid white;
+    margin-top: -30px;
+
+
+}
+
+#cloud_c {
+    height: 140px;
+    width: 150px;
+    background-color: rgb(48, 47, 47);
+    color: antiquewhite;
+    border: 1px solid white;
+    padding: 5px;
+
+
+
+}
+
+#cloud_a:hover {
+    margin-top: -10px;
+    background-color: rgb(66, 63, 63);
+}
+
+#cloud_c:hover {
+    margin-top: -10px;
+    background-color: rgb(66, 63, 63);
+}
+
+#cloud:hover {
+    margin-top: -10px;
+    background-color: rgb(49, 45, 45);
+}
+
+
+
+#cloud_a img {
+    height: 50px;
+    margin-top: 25%;
+
+}
+
+#cloud img {
+    height: 50px;
+    margin-top: 25%;
+
+}
+
+#cloud_c img {
+    height: 50px;
+    margin-top: 25%;
+
+}
