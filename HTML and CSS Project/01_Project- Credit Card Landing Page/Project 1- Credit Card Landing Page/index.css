@@ -1,3 +1,13 @@
+/* body {
+    border: 2px;
+    border-style: none;
+    justify-content: center;
+    margin-left: 250px;
+    margin-right: 250px;
+} */
+
+
+
 .navbar {
     display: flex;
     justify-content: space-between;

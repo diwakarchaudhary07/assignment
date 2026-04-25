@@ -1,3 +1,11 @@
+body {
+    border: 2px;
+    border-style: none;
+    justify-content: center;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
 #navbar {
     display: flex;
     flex-direction: row;
@@ -7,50 +15,57 @@
     background-color: rgb(56, 56, 56);
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 50px;
-    padding-right: 50px;
-    height: 60px;
+    padding-left: 100px;
+    padding-right: 100px;
 
 
 }
 
-#heading {
-
-    display: flex;
-    height: 40px;
-    z-index: 4;
-    justify-content: space-between;
-    padding: 30px;
-    font: bold;
+#navbar img {
+    height: 80px;
+    width: 80px;
 }
 
+
+.text {
+    font-size: 40px;
+    width: 350px;
+}
+
+.highlight {
+    color: #ff00aa;
+    /* pink color */
+}
 
 .midle {
     display: flex;
-    margin-left: 20px;
-    margin-left: 30px;
     color: whitesmoke;
-    gap: 500px;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    gap: 80px;
 
 
 }
 
 #p1 {
-    padding-top: 60px;
-    padding-right: 70px;
+    font-size: 13px;
+    color: rgb(125, 121, 121);
+    margin-top: 80px;
 }
 
 #main_cloud {
-    gap: 30px;
-    margin-top: 120px;
+    margin-top: 70px;
     display: flex;
     text-align: center;
     margin-left: 50px;
+    margin-left: 40px;
+    gap: 45px;
 }
 
 #cloud_a {
-    height: 140px;
-    width: 150px;
+    height: 150px;
+    width: 170px;
     background-color: rgb(46, 41, 41);
     color: antiquewhite;
     flex-direction: column;
@@ -59,8 +74,8 @@
 }
 
 #cloud {
-    height: 140px;
-    width: 150px;
+    height: 150px;
+    width: 170px;
     background-color: rgb(66, 63, 63);
     color: antiquewhite;
     padding: 5px;
@@ -71,8 +86,8 @@
 }
 
 #cloud_c {
-    height: 140px;
-    width: 150px;
+    height: 150px;
+    width: 170px;
     background-color: rgb(48, 47, 47);
     color: antiquewhite;
     border: 1px solid white;
