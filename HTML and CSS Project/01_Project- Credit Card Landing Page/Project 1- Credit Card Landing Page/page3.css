@@ -1,0 +1,32 @@
+#page3 {
+    border: 2px;
+    border-style: none;
+    justify-content: center;
+    margin-left: 250px;
+    margin-right: 270px;
+    margin-top: 0px;
+    background-color: whitesmoke;
+
+}
+
+#unique {
+    font-size: 40px;
+    text-align: center;
+}
+
+#description {
+    font: 15px;
+    text-align: center;
+    color: rgb(60, 53, 53);
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 20px;
+
+}
+
+#vcard img {
+    display: flex;
+    width: 750px;
+    height: 430px;
+    /* margin-left: 250px; */
+
+}
